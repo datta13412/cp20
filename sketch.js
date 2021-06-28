@@ -50,7 +50,7 @@ mouse.changeAnimation("mouselastimg")
 function keyPressed(){
 
 if(keyCode===LEFT_ARROW){
-    cat.velocity=-5
+    cat.velocityX=-5
     cat.addAnimation("catRunning",cat2)
     cat.changeAnimation("catRunning")
     cat.scale=0.1
